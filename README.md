@@ -7,21 +7,15 @@
 
 Non-blocking PostgreSQL client for Node.js.  Pure JavaScript and optional native libpq bindings.
 
-## Monorepo
+## Install
 
-This repo is a monorepo which contains the core [pg](https://github.com/brianc/node-postgres/tree/master/packages/pg) module as well as a handful of related modules.
+```sh
+$ npm install pg
+```
 
-- [pg](https://github.com/brianc/node-postgres/tree/master/packages/pg)
-- [pg-pool](https://github.com/brianc/node-postgres/tree/master/packages/pg-pool)
-- [pg-cursor](https://github.com/brianc/node-postgres/tree/master/packages/pg-cursor)
-- [pg-query-stream](https://github.com/brianc/node-postgres/tree/master/packages/pg-query-stream)
+---
+## :star: [Documentation](https://node-postgres.com) :star:
 
-
-## Documenation
-
-Each package in this repo should have it's own readme more focused on how to develop/contribute.  For overall documentation on the project and the related modules managed by this repo please see:
-
-### :star: [Documentation](https://node-postgres.com) :star:
 
 ### Features
 
@@ -66,6 +60,7 @@ node-postgres's continued development has been made possible in part by generous
 
 If you or your company are benefiting from node-postgres and would like to help keep the project financially sustainable [please consider supporting](https://github.com/sponsors/brianc) its development.
 
+
 ## Contributing
 
 __:heart: contributions!__
@@ -76,6 +71,7 @@ I will __happily__ accept your pull request if it:
 - does not break backwards compatibility
 
 If your change involves breaking backwards compatibility please please point that out in the pull request & we can discuss & plan when and how to release it and what type of documentation or communicate it will require.
+
 
 ## Troubleshooting and FAQ
 
@@ -102,3 +98,4 @@ Copyright (c) 2010-2020 Brian Carlson (brian.m.carlson@gmail.com)
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
+
